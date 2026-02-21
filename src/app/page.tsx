@@ -10,6 +10,13 @@ export default function Home() {
 
   return (
     <>
+      {/* Badge "10 min da Vila" */}
+      <div className="bg-rose-500 text-white text-center py-2.5 px-4">
+        <p className="text-sm font-semibold tracking-wide">
+          10 min da Vila de Praia do Forte
+        </p>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Title */}
         <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-1">
@@ -113,12 +120,12 @@ export default function Home() {
                 />
               </div>
               <a
-                href={`https://www.openstreetmap.org/?mlat=${property.coordinates.lat}&mlon=${property.coordinates.lng}#map=15/${property.coordinates.lat}/${property.coordinates.lng}`}
+                href="https://maps.app.goo.gl/fdVB8A8xQAhVMSm48"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-3 text-sm font-medium text-gray-900 underline hover:text-gray-600 transition-colors"
               >
-                Ver mapa maior
+                Ver no Google Maps
               </a>
             </div>
           </div>

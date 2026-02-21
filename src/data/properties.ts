@@ -53,5 +53,5 @@ export const property: Property = {
   ),
   coverImage: "/properties/refugio-do-castelo/foto-25.jpg",
   whatsapp: "5571999999999",
-  coordinates: { lat: -12.5630, lng: -37.9930 },
+  coordinates: { lat: -12.5600, lng: -37.9950 },
 };
